@@ -116,6 +116,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newFeatue = function () {
+  console.log('Welcome to the application');
+};
+
 const init = function () {
   // 294. event handlers in MVC: publisher-subscriber pattern
   //  event handlers will be in the controller
@@ -126,6 +130,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView._addHandlerUpload(controlAddRecipe);
+  newFeatue();
 };
 
 init();
