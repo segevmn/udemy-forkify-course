@@ -134,3 +134,16 @@ const init = function () {
 };
 
 init();
+
+//315.
+
+/*
+  git add -A: add all changes to local repository
+  git commit -m 'message' : commit with description message
+*/
+
+// 316. pust to github
+/*
+  git remote add origin url : create a remote branch named origin
+  git push origin branch-name: push he local branch to the remote branch and to github
+ */
